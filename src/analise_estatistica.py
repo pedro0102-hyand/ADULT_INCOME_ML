@@ -6,6 +6,7 @@ train_df = pd.read_csv("data/train.csv")
 
 print("\n--- Etapa 3: Análise Estatística e EDA ---\n")
 
+# exibir estatísticas padrao
 print("Estatísticas das variáveis numéricas:\n")
 print(train_df.describe(), "\n")
 
