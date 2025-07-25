@@ -1,0 +1,15 @@
+=== Modelo Random Forest ===
+F1-Score (>50K): 0.6715
+Acurácia: 0.8589
+Precisão (>50K): 0.7220
+Recall (>50K): 0.6277
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.93      0.91      5642
+        >50K       0.72      0.63      0.67      1684
+
+    accuracy                           0.86      7326
+   macro avg       0.81      0.78      0.79      7326
+weighted avg       0.85      0.86      0.86      7326
