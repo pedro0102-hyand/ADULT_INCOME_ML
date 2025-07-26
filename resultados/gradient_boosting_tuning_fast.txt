@@ -1,0 +1,13 @@
+=== Gradient Boosting Tuning Rápido ===
+Melhores parâmetros: {'subsample': 1.0, 'n_estimators': 150, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': 4, 'learning_rate': 0.2}
+F1-score de validação: 0.7160
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+       <=50K       0.90      0.94      0.92      5642
+        >50K       0.77      0.67      0.72      1684
+
+    accuracy                           0.88      7326
+   macro avg       0.84      0.80      0.82      7326
+weighted avg       0.87      0.88      0.87      7326
