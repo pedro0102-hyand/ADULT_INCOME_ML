@@ -1,0 +1,6 @@
+Modelo,F1-Score (>50K)
+Gradient Boosting Tuning,0.716
+Gradient Boosting,0.7085
+Random Forest Tuning,0.6901
+Random Forest,0.6715
+Baseline (Logistic Regression),0.661
