@@ -1,0 +1,13 @@
+=== Random Forest RandomizedSearchCV ===
+Melhores parâmetros: {'n_estimators': 100, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_depth': 40}
+F1-score de validação: 0.6901
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.95      0.92      5642
+        >50K       0.77      0.62      0.69      1684
+
+    accuracy                           0.87      7326
+   macro avg       0.83      0.78      0.80      7326
+weighted avg       0.87      0.87      0.87      7326
